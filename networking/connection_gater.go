@@ -3,12 +3,12 @@ package networking
 import (
 	"sync"
 
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
 	p2pcontrol "github.com/libp2p/go-libp2p-core/control"
 	p2pnetwork "github.com/libp2p/go-libp2p-core/network"
 	p2ppeer "github.com/libp2p/go-libp2p-core/peer"
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
 	"golang.org/x/time/rate"
 )
 

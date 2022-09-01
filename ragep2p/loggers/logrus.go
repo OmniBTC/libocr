@@ -1,8 +1,8 @@
 package loggers
 
 import (
+	"github.com/OmniBTC/libocr/commontypes"
 	"github.com/sirupsen/logrus"
-	"github.com/smartcontractkit/libocr/commontypes"
 )
 
 var _ commontypes.Logger = LogrusLogger{}

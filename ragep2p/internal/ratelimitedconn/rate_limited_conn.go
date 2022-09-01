@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/OmniBTC/libocr/commontypes"
 )
 
 type Limiter interface {

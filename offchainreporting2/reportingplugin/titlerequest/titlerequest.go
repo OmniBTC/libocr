@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/OmniBTC/libocr/gethwrappers2/ocr2titlerequest"
+	"github.com/OmniBTC/libocr/offchainreporting2/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/smartcontractkit/libocr/gethwrappers2/ocr2titlerequest"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
 )
 
 // Transactions that are buried confirmationDepth blocks deep in the chain are

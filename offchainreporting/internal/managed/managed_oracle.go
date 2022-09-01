@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization/protobuf"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/shim"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/config"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/protocol"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/shim"
+	"github.com/OmniBTC/libocr/offchainreporting/types"
+	"github.com/OmniBTC/libocr/subprocesses"
 )
 
 // RunManagedOracle runs a "managed" version of protocol.RunOracle. It handles

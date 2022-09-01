@@ -4,14 +4,14 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/serialization"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/shim"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/offchainreporting2/internal/config"
+	"github.com/OmniBTC/libocr/offchainreporting2/internal/protocol"
+	"github.com/OmniBTC/libocr/offchainreporting2/internal/serialization"
+	"github.com/OmniBTC/libocr/offchainreporting2/internal/shim"
+	"github.com/OmniBTC/libocr/offchainreporting2/types"
+	"github.com/OmniBTC/libocr/subprocesses"
 	"go.uber.org/multierr"
 )
 

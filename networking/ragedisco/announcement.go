@@ -7,11 +7,11 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	ragetypes "github.com/OmniBTC/libocr/ragep2p/types"
 
 	"github.com/pkg/errors"
 
-	"github.com/smartcontractkit/libocr/networking/ragedisco/serialization"
+	"github.com/OmniBTC/libocr/networking/ragedisco/serialization"
 	"google.golang.org/protobuf/proto"
 )
 

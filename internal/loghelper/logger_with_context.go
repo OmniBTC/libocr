@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/OmniBTC/libocr/commontypes"
 )
 
 type LoggerWithContext interface {

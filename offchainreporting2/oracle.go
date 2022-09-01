@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/managed"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/offchainreporting2/internal/managed"
+	"github.com/OmniBTC/libocr/offchainreporting2/types"
+	"github.com/OmniBTC/libocr/subprocesses"
 )
 
 // OracleArgs contains the configuration and services a caller must provide, in

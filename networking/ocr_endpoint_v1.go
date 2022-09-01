@@ -9,22 +9,22 @@ import (
 	"sync"
 	"time"
 
+	"github.com/OmniBTC/libocr/commontypes"
 	"github.com/libp2p/go-libp2p-core/peerstore"
-	"github.com/smartcontractkit/libocr/commontypes"
 	"golang.org/x/time/rate"
 
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	dhtrouter "github.com/OmniBTC/libocr/networking/dht-router"
+	"github.com/OmniBTC/libocr/networking/knockingtls"
+	"github.com/OmniBTC/libocr/networking/wire"
+	"github.com/OmniBTC/libocr/offchainreporting/types"
+	ocr1types "github.com/OmniBTC/libocr/offchainreporting/types"
 	p2pnetwork "github.com/libp2p/go-libp2p-core/network"
 	p2ppeer "github.com/libp2p/go-libp2p-core/peer"
 	p2pprotocol "github.com/libp2p/go-libp2p-core/protocol"
 	swarm "github.com/libp2p/go-libp2p-swarm"
 	rhost "github.com/libp2p/go-libp2p/p2p/host/routed"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	dhtrouter "github.com/smartcontractkit/libocr/networking/dht-router"
-	"github.com/smartcontractkit/libocr/networking/knockingtls"
-	"github.com/smartcontractkit/libocr/networking/wire"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	ocr1types "github.com/smartcontractkit/libocr/offchainreporting/types"
 )
 
 var (

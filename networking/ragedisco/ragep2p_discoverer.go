@@ -8,14 +8,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/OmniBTC/libocr/commontypes"
 
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	nettypes "github.com/smartcontractkit/libocr/networking/types"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/ragep2p"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	nettypes "github.com/OmniBTC/libocr/networking/types"
+	"github.com/OmniBTC/libocr/offchainreporting2/types"
+	"github.com/OmniBTC/libocr/ragep2p"
+	ragetypes "github.com/OmniBTC/libocr/ragep2p/types"
+	"github.com/OmniBTC/libocr/subprocesses"
 )
 
 type ragep2pDiscovererState int

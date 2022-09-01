@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/OmniBTC/libocr/commontypes"
 	"golang.org/x/time/rate"
 )
 

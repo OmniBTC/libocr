@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/OmniBTC/libocr/offchainreporting2/types"
 )
 
 // LimitCheckReportingPlugin wraps another ReportingPlugin and checks that

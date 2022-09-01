@@ -3,8 +3,8 @@ package offchainreporting
 import (
 	"time"
 
+	"github.com/OmniBTC/libocr/offchainreporting2/types"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
 	"go.uber.org/multierr"
 )
 

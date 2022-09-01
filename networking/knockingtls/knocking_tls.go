@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
 	p2pcrypto "github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-core/sec"
 	p2ptls "github.com/libp2p/go-libp2p-tls"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
 	"golang.org/x/crypto/ed25519"
 )
 

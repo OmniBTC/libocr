@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/offchainreporting/types"
 	"github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
 
 	"github.com/pkg/errors"
 )
@@ -68,7 +68,7 @@ func newDHT(ctx context.Context, config DHTNodeConfig, aclHost ACLHost) (*dht.Ip
 	const BucketSize = 2 * types.MaxOracles
 
 	kadDHT, err := dht.New(ctx, aclHost,
-		dht.BucketSize(BucketSize), // K in the Kademlia paper
+		dht.BucketSize(BucketSize),                                           // K in the Kademlia paper
 		dht.NamespacedValidator(ValidatorNamespace, AnnouncementValidator{}), // THIS IS CRITICAL. WE MUST USE AnnouncementValidator.
 		dht.ProtocolPrefix(config.prefix),                                    // stands for off-chain reporting
 		dht.ProtocolExtension(config.extension),

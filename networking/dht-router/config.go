@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	ocr1types "github.com/OmniBTC/libocr/offchainreporting/types"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-core/protocol"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	ocr1types "github.com/smartcontractkit/libocr/offchainreporting/types"
 )
 
 type DHTNodeConfig struct {

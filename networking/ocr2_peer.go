@@ -3,8 +3,8 @@ package networking
 import (
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/offchainreporting2/types"
 )
 
 type ocr2BinaryNetworkEndpointFactory struct {

@@ -3,10 +3,10 @@ package shim
 import (
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization/protobuf"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/OmniBTC/libocr/offchainreporting/types"
 )
 
 type TelemetrySender struct {

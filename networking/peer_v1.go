@@ -5,6 +5,10 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/networking/knockingtls"
+	ocr1types "github.com/OmniBTC/libocr/offchainreporting/types"
 	"github.com/libp2p/go-libp2p"
 	p2phost "github.com/libp2p/go-libp2p-core/host"
 	p2ppeer "github.com/libp2p/go-libp2p-core/peer"
@@ -14,10 +18,6 @@ import (
 	"github.com/libp2p/go-tcp-transport"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/networking/knockingtls"
-	ocr1types "github.com/smartcontractkit/libocr/offchainreporting/types"
 )
 
 const (

@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/OmniBTC/libocr/networking/dht-router/serialization"
 	p2pcrypto "github.com/libp2p/go-libp2p-core/crypto"
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/smartcontractkit/libocr/networking/dht-router/serialization"
 	"google.golang.org/protobuf/proto"
 )
 

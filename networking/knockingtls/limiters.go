@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/OmniBTC/libocr/commontypes"
 	p2ppeer "github.com/libp2p/go-libp2p-core/peer"
-	"github.com/smartcontractkit/libocr/commontypes"
 	"golang.org/x/time/rate"
 )
 

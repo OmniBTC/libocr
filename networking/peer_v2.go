@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/networking/ragedisco"
+	ocr2types "github.com/OmniBTC/libocr/offchainreporting2/types"
+	"github.com/OmniBTC/libocr/ragep2p"
+	ragetypes "github.com/OmniBTC/libocr/ragep2p/types"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/networking/ragedisco"
-	ocr2types "github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/ragep2p"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
 )
 
 // concretePeerV2 represents a ragep2p peer with one peer ID listening on one port

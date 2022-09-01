@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/signature"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/protocol/observation"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/signature"
+	"github.com/OmniBTC/libocr/offchainreporting/types"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"

@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/config"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/protocol/observation"
+	"github.com/OmniBTC/libocr/offchainreporting/types"
+	"github.com/OmniBTC/libocr/permutation"
+	"github.com/OmniBTC/libocr/subprocesses"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/permutation"
-	"github.com/smartcontractkit/libocr/subprocesses"
 	"golang.org/x/crypto/sha3"
 )
 

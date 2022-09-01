@@ -8,10 +8,10 @@ import (
 	"math/big"
 	"time"
 
+	"github.com/OmniBTC/libocr/gethwrappers/offchainaggregator"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/config"
+	"github.com/OmniBTC/libocr/offchainreporting/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/smartcontractkit/libocr/gethwrappers/offchainaggregator"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
 )
 
 // OracleIdentity is identical to the internal type in package config.

@@ -7,12 +7,12 @@ import (
 
 	"go.uber.org/multierr"
 
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	dhtrouter "github.com/OmniBTC/libocr/networking/dht-router"
+	ocr1types "github.com/OmniBTC/libocr/offchainreporting/types"
 	p2ppeer "github.com/libp2p/go-libp2p-core/peer"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	dhtrouter "github.com/smartcontractkit/libocr/networking/dht-router"
-	ocr1types "github.com/smartcontractkit/libocr/offchainreporting/types"
 )
 
 var (

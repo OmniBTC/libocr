@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	ocr2types "github.com/smartcontractkit/libocr/offchainreporting2/types"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	"github.com/OmniBTC/libocr/commontypes"
+	ocr2types "github.com/OmniBTC/libocr/offchainreporting2/types"
+	ragetypes "github.com/OmniBTC/libocr/ragep2p/types"
 
-	"github.com/smartcontractkit/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/internal/loghelper"
 )
 
 var (

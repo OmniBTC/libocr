@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/signature"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/protocol/observation"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/signature"
+	"github.com/OmniBTC/libocr/offchainreporting/types"
 )
 
 type SignedObservation struct {

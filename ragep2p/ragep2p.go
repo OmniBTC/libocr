@@ -15,16 +15,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/ragep2p/internal/msgbuf"
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/ragep2p/internal/msgbuf"
 
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/ragep2p/internal/knock"
-	"github.com/smartcontractkit/libocr/ragep2p/internal/mtls"
-	"github.com/smartcontractkit/libocr/ragep2p/internal/ratelimit"
-	"github.com/smartcontractkit/libocr/ragep2p/internal/ratelimitedconn"
-	"github.com/smartcontractkit/libocr/ragep2p/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/ragep2p/internal/knock"
+	"github.com/OmniBTC/libocr/ragep2p/internal/mtls"
+	"github.com/OmniBTC/libocr/ragep2p/internal/ratelimit"
+	"github.com/OmniBTC/libocr/ragep2p/internal/ratelimitedconn"
+	"github.com/OmniBTC/libocr/ragep2p/types"
+	"github.com/OmniBTC/libocr/subprocesses"
 )
 
 // Maximum number of streams with another peer that can be opened on a host

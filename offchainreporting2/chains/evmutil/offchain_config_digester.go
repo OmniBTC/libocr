@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/OmniBTC/libocr/offchainreporting2/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
 )
 
 var _ types.OffchainConfigDigester = EVMOffchainConfigDigester{}

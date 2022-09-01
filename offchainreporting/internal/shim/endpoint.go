@@ -4,14 +4,14 @@ package shim
 import (
 	"sync"
 
+	"github.com/OmniBTC/libocr/commontypes"
+	"github.com/OmniBTC/libocr/internal/loghelper"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/protocol"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/serialization"
+	"github.com/OmniBTC/libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/OmniBTC/libocr/offchainreporting/types"
+	"github.com/OmniBTC/libocr/subprocesses"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization/protobuf"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
 )
 
 type SerializingEndpoint struct {

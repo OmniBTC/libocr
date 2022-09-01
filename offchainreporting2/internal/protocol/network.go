@@ -3,7 +3,7 @@ package protocol
 import (
 	"log"
 
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/OmniBTC/libocr/commontypes"
 )
 
 // NetworkSender sends messages to other oracles

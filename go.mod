@@ -1,4 +1,4 @@
-module github.com/smartcontractkit/libocr
+module github.com/OmniBTC/libocr
 
 go 1.18
 
@@ -124,7 +124,7 @@ require (
 	github.com/rjeczalik/notify v0.9.2 // indirect
 	github.com/rs/cors v1.7.0 // indirect
 	github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible // indirect
-	github.com/smartcontractkit/libocr v0.0.0-20220812191430-db92a9fdaa52 // indirect
+	github.com/OmniBTC/libocr v0.0.0-20220812191430-db92a9fdaa52 // indirect
 	github.com/spacemonkeygo/spacelog v0.0.0-20180420211403-2296661a0572 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/status-im/keycard-go v0.0.0-20190424133014-d95853db0f48 // indirect
